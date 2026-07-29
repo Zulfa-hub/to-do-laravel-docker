@@ -58,8 +58,8 @@ Aplikasi manajemen tugas (to-do list) berbasis Laravel, dengan tampilan terinspi
 
 3. Tunggu beberapa saat (container `app` otomatis menjalankan `migrate` & `db:seed`
    yang akan mengisi kategori default: Kuliah, Pribadi, Organisasi, Kerja).
-4. Buka aplikasi di browser: **http://localhost:8080**
-5. Buka phpMyAdmin untuk cek tabel database: **http://localhost:8081** (server: `db`, user/password sesuai `.env`)
+4. Buka aplikasi di browser: **http://localhost:8090**
+5. Buka phpMyAdmin untuk cek tabel database: **http://localhost:8091** (server: `db`, user/password sesuai `.env`)
 6. Daftar akun baru melalui halaman **Register**, lalu mulai kelola tugas Anda.
 
 ### Konfigurasi Port / Database (opsional)
@@ -67,7 +67,7 @@ Aplikasi manajemen tugas (to-do list) berbasis Laravel, dengan tampilan terinspi
 Buat file `.env` di root proyek (sejajar dengan `compose.yaml`) untuk override default:
 
 ```env
-APP_PORT=8080
+APP_PORT=8090
 DB_DATABASE=todo_db
 DB_USERNAME=todo_user
 DB_PASSWORD=todo_pass
